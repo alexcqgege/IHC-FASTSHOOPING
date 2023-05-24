@@ -1,0 +1,62 @@
+:root {
+    font-family: 'Roboto Slab', serif;
+    --primary-color: #FC9C04;
+    --secondary-color: #FFF;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    padding-left: 10px;
+    float: left;
+
+}
+
+.inicio{
+    height: 60px;
+    width: 100%;
+    background-color: var(--primary-color);
+    
+}
+
+nav{
+    height: 80px;
+}
+nav h1{
+    float: left;
+    line-height: 60px;
+    margin-left: 5px;
+    font-size: var(--font-size-big);
+    font-size: inline;
+    color:black;
+    letter-spacing: 2px;
+}
+
+nav ul{
+    margin-right: 20px;
+    float: right;
+    line-height: 60px;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 0px 5px;
+}
+
+nav ul li a{
+    color:black;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding: 7px 8px;
+}
+nav ul li a:hover{
+    color: black;
+    background-color: white;
+    transition: 0.5s ease;
+}
+
