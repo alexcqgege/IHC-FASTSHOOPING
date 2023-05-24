@@ -15,6 +15,11 @@ body{
     text-align: center;
 }
 
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .inicio{
     background: var(--primary-color);
@@ -62,9 +67,29 @@ body{
     transition: 0.6s ease;
 }
 
-.descripcion{
-    height: 60vh !important;
-    background: url(assets/fondo.webp) no-repeat center;
-    background-size: cover;
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+.descripcion{
+    height: 60vh !important;
+    background-color: darkgray;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
+
+.tittle{
+    color: #000000;
+}
+
+.descripcion p {
+    color: #FFF;
+    margin-left: 600px;
+    margin-right: 600px;
+    text-align: justify;
+    padding-top: 10px;
+    margin-bottom: 40px;
+}
